@@ -1,0 +1,35 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 280px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.hobby-img {
+    width: 30%;
+    height: 30px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #4facfe;
+    margin: 15px 0 10px;
+}
+
+.card p {
+    padding: 0 15px 15px;
+}
